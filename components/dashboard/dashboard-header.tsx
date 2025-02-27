@@ -3,10 +3,8 @@
 import { Bell, Search } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { useSidebar } from "@/components/sidebar-provider"
 
 export function DashboardHeader() {
-  const { isMobile, toggleSidebar } = useSidebar()
 
   return (
     <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
